@@ -43,7 +43,7 @@ function forgotSubmit() {
         alert("Please Provide Username");
     } else {
         window.localStorage.setItem("email", username.value);
-        window.location.href = "./forgot.html";
+        window.location.href = "./forget.html";
     }
 }
 

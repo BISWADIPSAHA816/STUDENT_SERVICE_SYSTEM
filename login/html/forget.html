@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="forget.css">
+    <link rel="stylesheet" href="../css/forget.css">
     <style media="screen and (max-width:1050px)">
-        #navbar{
+        #navbar {
             flex-direction: column;
         }
     </style>
@@ -25,14 +25,15 @@
             <div id="fp-box">
                 <h1>Set Password</h1>
                 <div id="np-box">
+                    <input type="hidden" required id="emailInput" />
                     <label>New Password</label>
-                    <input type="text" placeholder="" required>
+                    <input type="text" placeholder="" required />
                     <label>Confirm New Password</label>
-                    <input type="password" placeholder="" required>
+                    <input type="password" placeholder="" required />
                     <div id="otp">
-                        <input type="password" placeholder="Type OTP here" required>
-                    </div>                   
-                    <button type="submit">Send OTP</button>                  
+                        <input type="password" placeholder="Type OTP here" required />
+                    </div>
+                    <button type="submit">Send OTP</button>
                     <button type="submit">Submit</button>
                 </div>
             </div>
@@ -41,7 +42,7 @@
     <footer>
         Copyright @Copyright www.studentsupport@kiit.ac.in All rights reserved!
     </footer>
-    <script src="forget.js"></script>
+    <script src="../javascript/forget.js"></script>
 </body>
 
 </html>
