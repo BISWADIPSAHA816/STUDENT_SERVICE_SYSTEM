@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to left, #4cafaf, #84af4c);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+
+#logo {
+    margin: 7px 10px;
+}
+
+#logo img {
+    width: 75px;
+    height: 57px;
+    margin: 0px 7px;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.Login-box {
+    width: 360px;
+    height: 290px;
+    margin: 10% auto;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid rgba(30, 97, 221, 0.774);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #4c9f84;
+}
+.form-box {
+    width: 280px;
+    margin: auto;
+}
+
+.form-box label {
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.form-box input {
+    width: 94%;
+    padding: 5px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+button {
+    width: 280px;
+    height: 37px;
+    background-color: rgb(89 140 216);
+    margin-top: 23px;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#pass {
+    display: flex;
+    
+    margin-top: 6px;
+    justify-content: right;
+}
+#register {
+    display: flex;
+    flex-direction: column-reverse;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-top: -2%;
+    font-weight: bold
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding: 5px;
+}

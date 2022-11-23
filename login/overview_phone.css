@@ -1,0 +1,64 @@
+#openbtn {
+    margin-right: 30vh;
+}
+
+#phone_overview_container, #phone_compose_container {
+    width: 300px;
+}
+
+.overview {
+    margin-left: 30%;
+}
+
+#phone_issue_container {
+    width: 300px;
+}
+
+th {
+    font-size: 16px;
+}
+
+td {
+    font-size: 13px;
+}
+.compose{
+    margin-left: 28%;
+}
+.phone_form{
+    display: flex;
+    flex-direction: column;
+}
+.label_subject{
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+#name{
+    width: 75%;
+    margin-left: 30px;
+}
+.label_description {
+    margin-left: 95px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-left: 38px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+#phone_dept{
+    margin-top: 0px;
+}
+.label_department{
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+#option {
+    margin-left: 70px;
+    width: 50%;
+}
+#submit {
+    margin-left: 85px;
+}
+#foot{
+    margin-top: 60px;
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+
+#logo {
+    margin: 7px 10px;
+}
+
+#logo img {
+    width: 75px;
+    height: 57px;
+    margin: 0px 7px;
+}
+body {
+    background-image: linear-gradient(to left, #4cafaf, #84af4c);
+}
+
+.signup-box {
+    width: 470px;
+    height: 350px;
+    display: grid;
+    margin: 60px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgba(30, 97, 221, 0.774);
+    grid-template-rows: repeat(7,1fr);
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    height: 40px;
+    margin: 10px;
+    color: #799e4a;
+}
+
+.signup-box label {
+    margin-top: 3px;
+    padding-top: 5px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+
+}
+.signup-box input {
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+#btn1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 30px;
+    width: 80px;
+    justify-self: center;
+    margin: 10px;
+    color: #000000;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    padding: 5px;
+}

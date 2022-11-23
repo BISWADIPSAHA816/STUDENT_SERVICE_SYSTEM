@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to left, #4cafaf, #84af4c);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .2;
+
+}
+
+#logo {
+    margin: 7px 10px;
+}
+
+#logo img {
+    width: 75px;
+    height: 57px;
+    margin: 0px 7px;
+}
+
+#navbar ul {
+    display: flex;
+    padding-left: 65%;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+    color: white;
+}
+
+#content img {
+    height: 280px;
+}
+
+#slogan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#slogan p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0px 120px;
+    opacity: 0;
+}
+
+#one {
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+
+}
+
+#two {
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+#three {
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-delay: 4.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes myAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#content button {
+    margin-top: 20px;
+    padding: 10px 70px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#content a {
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+}

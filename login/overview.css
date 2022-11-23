@@ -1,0 +1,204 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background-image: linear-gradient(to left, #0f8d8d, #87d324);
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  margin-top: 5px;
+}
+
+#logo img {
+  width: 65px;
+  height: 50px;
+}
+
+#openbtn {
+  font-size: 22px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 180vh;
+}
+
+#openbtn:hover {
+  background-color: #444;
+}
+
+#closebtn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 36px;
+}
+
+.sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #43b7b7;
+  overflow-x: hidden;
+  transition: 2s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #4d4c4c;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.container_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#phone_overview_container,
+#phone_compose_container {
+  width: 643px;
+}
+
+#phone_issue_container {
+  width: 750px;
+}
+
+#compose {
+  flex-direction: column;
+}
+
+.overview,
+.issues,
+.compose {
+  font-size: 30px;
+  color: rgb(12, 192, 192);
+  font-weight: bolder;
+  margin-left: 41%;
+  margin-right: 40%;
+}
+
+table {
+  border: 1px;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+}
+
+tr {
+  height: 40px;
+  text-align: center;
+  background-color: #f6f6f6;
+  border-bottom: 2px solid #c9c6c6;
+}
+
+.first_row {
+  background-image: linear-gradient(to left, #0f8d8d, #87d324);
+}
+
+th {
+  font-size: 25px;
+  color: white;
+}
+
+td {
+  font-size: 18px;
+  color: black
+}
+
+td:hover {
+  cursor: pointer;
+  color: rgb(84 240 108);
+}
+
+#foot {
+  color: black;
+  text-align: center;
+  margin-top: 120px;
+  padding: 5px;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#name {
+  float: right;
+  height: 20px;
+  width: 65%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.label_subject,
+.label_description,
+.label_department {
+  color: rgb(41, 223, 223);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+textarea {
+  width: 65%;
+  border: 1px solid black;
+  border-radius: 10px;
+  float: right;
+  padding-left: 5px;
+}
+#phone_dept{
+  margin-top: 145px;
+}
+#option {
+  margin-left: 56px;
+  height: 23px;
+}
+
+#submit {
+  width: 120px;
+  border-radius: 7px;
+  background-color: rgb(20, 162, 20);
+  color: white;
+  border: none;
+  height: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 266px;
+}

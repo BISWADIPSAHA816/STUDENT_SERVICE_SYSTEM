@@ -1,0 +1,20 @@
+#openbtn {
+    margin-right: 60vh;
+}
+
+#phone_overview_container {
+    width: 400px;
+}
+
+.overview {
+    margin-left: 35%;
+}
+#phone_compose_container {
+    width: 430px;
+}
+#option{
+    margin-left: 130px;
+}
+#submit{
+    margin-left: 175px;
+}
