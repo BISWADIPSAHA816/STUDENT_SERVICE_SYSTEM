@@ -28,7 +28,7 @@ function loginSubmit(e) {
             .then((response) => response.text())
             .then((result) => {
                 // Api call  ekhne success hocche
-                window.location.href = "./overview.html";
+                window.location.href = "../javascript/overview.html";
             })
             .catch((error) => {
                 console.log("error", error);
